@@ -10,7 +10,7 @@ public class Exo001 {
     public Exo001() {
         boolean play = true;
         do { // replay ?
-            int rnd = (int) (Math.random() * 149) + 1;
+            int rnd = (int) (Math.random() * 149) + 1; //
             boolean done = false;
             int attemps = 10;
             int entry = 0;

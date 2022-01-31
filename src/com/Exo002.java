@@ -1,5 +1,7 @@
 package com;
 
+import java.util.Arrays;
+
 public class Exo002 {
     public static void main(String[] args) {new Exo002();}
 
@@ -17,5 +19,6 @@ public class Exo002 {
         for (int i = 0; i < tab.length; i++) {
             System.out.println(String.format("%s[%s]=%s", tabName, i, tab[i]));
         }
+        System.out.println(Arrays.toString(tab));
     }
 }
